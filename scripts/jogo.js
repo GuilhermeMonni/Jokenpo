@@ -2,12 +2,12 @@ function btnVoltar(){
     location.replace("index.html", "_self")
 }
 
-function btnJogar(){
+function btnJogarJokenpo(){
     location.replace("jokenpo.html", "_self")
 }
 
-function btnRegras(){
-    location.replace("regras.html", "_self")
+function btnRegrasJokenpo(){
+    location.replace("regras-jokenpo.html", "_self")
 }
 
 function btnRedes(){
