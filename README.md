@@ -3,6 +3,7 @@ Este é um website animado, criado com a ideia de ter alguns jogos simples, para
 
 # Jogos
 * Jokenpô
+* Jogo da velha (em desenvolvimento)
 
 # Estrutura do Projeto
 * styleHome.css: estilo da página inicial.
@@ -20,7 +21,7 @@ Este é um website animado, criado com a ideia de ter alguns jogos simples, para
 * velha.js: script do jogo da velha.
 
 # Em breve
-- Alguns outros jogos estão sendo desenvolvidos.
+- Projeto ainda está sendo desenvolvido
 
 
 
