@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family= Bebas +Neue & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
     margin: auto;
@@ -30,11 +31,12 @@ body{
     height: 30px;
     width: 30px;
 }
-h3 #escolhaJogo{/*escolha jogador*/
-    margin: 50px auto;
-    font-family: 'Honk', system-ui;
+#escolhaJogo{/*escolha jogador*/
+    margin: 30px auto;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 600;
-    font-size: 1.4em;
+    font-style: normal;
+    font-size: 1.3em;
 }
 .containerJogo{/*conteúdo principal da pág do jogo*/
     margin: 90px auto;
