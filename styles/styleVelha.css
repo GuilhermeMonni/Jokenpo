@@ -6,6 +6,7 @@
 
 body{
     margin: auto;
+    padding: 10px;
     text-align: center;
     background-color: wheat;
     overflow: hidden;
@@ -36,10 +37,53 @@ body{
     text-align: center;                     
     padding: 1px;
     background-color: #ed1c23;
-    height: 590px;
+    height: 660px;
     width: 600px;
     border-radius: 13px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.736);
+}
+/* h3{/*escolha jogador
+    margin: 30px auto;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.3em;
+    background-color: white;
+} */
+#botoes-escolha{ /*botao de escolha do jogador*/
+    background-color: white;
+    margin: 10px auto;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botoes-escolha img{
+    width: 60%;
+}
+#btn-xis, #btn-bola{ /*escolha*/
+    margin: 10px 50px;
+    width: 50%;
+    height: 60%;
+}
+.quadro{  /*quadro das jogadas*/
+    height: 300px;
+    margin: 50px auto;
+    padding: 10px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
+.celula{    /*posições dentro do quadro*/
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
 }
 footer {
   margin-top: 128px;
