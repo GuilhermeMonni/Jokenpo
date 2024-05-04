@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="favicon_io (2)/favicon.ico" type="image/x-icon">
     <title>Jogo da velha</title>
 </head>
-<body>
+<body onload="carregaPag()">
     <header>
         <span id="voltar">
             <button id="btnVoltar" onclick="btnVoltar()"><img id="imgVoltar" src="imagens/voltar.png" alt=""></button>
@@ -16,8 +16,8 @@
     </header>
     <main>
         <div class="containerJogo">
+            <h3 id="escolha-jogador">Faça a sua escolha</h3>
             <div id="botoes-escolha">
-                <!-- <h3 id="escolha-jogador">Escolha X ou O</h3> -->
                 <button id="btn-xis">X</button>
                 <div id="botoes-escolha-vs">
                     <img src="imagens/vs.png" alt="">

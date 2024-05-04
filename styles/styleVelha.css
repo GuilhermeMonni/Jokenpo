@@ -42,17 +42,18 @@ body{
     border-radius: 13px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.736);
 }
-/* h3{/*escolha jogador
-    margin: 30px auto;
+h3{   /*escolha jogador*/
+    margin: 50px auto;
+    width: 300px;
+    height: 100px;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.3em;
-    background-color: white;
-} */
+    font-size: 2em;
+}
 #botoes-escolha{ /*botao de escolha do jogador*/
     background-color: white;
-    margin: 10px auto;
+    margin: 20px auto;
     width: 70%;
     height: 100px;
     display: flex;
@@ -86,13 +87,13 @@ body{
     cursor: pointer;
 }
 footer {
-  margin-top: 128px;
+  margin-top: 135px;
   width: 60px;
   height: 80px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
 }
-#icon-ppt {
+#icon-jv {
   width: 50px;
 }
 
