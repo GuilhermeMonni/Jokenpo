@@ -33,7 +33,7 @@ body{
     width: 30px;
 }
 .containerJogo{/*conteúdo principal da pág do jogo*/
-    margin: 90px auto;
+    margin: 50px auto 70px;
     text-align: center;                     
     padding: 1px;
     background-color: #ed1c23;
@@ -87,7 +87,7 @@ h3{   /*escolha jogador*/
     cursor: pointer;
 }
 footer {
-  margin-top: 135px;
+  margin-top: 0px;
   width: 60px;
   height: 80px;
   font-family: Arial, Helvetica, sans-serif;
