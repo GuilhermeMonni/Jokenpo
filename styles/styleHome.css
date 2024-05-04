@@ -20,24 +20,37 @@ body {
   background-color: wheat;
   overflow: hidden;
 }
-#menu {
-  /*conteúdo principal da pág home*/
-  margin: 60px auto;
+h1{
+  margin: 30px auto;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 600;
+  font-size: 2.4em;
+}
+.menus{
+  margin: 10px auto;
+  display: flex;
+  width: 90%;
+  height: 600px;
+  justify-content: space-around;
+  align-items: center;
+}
+#menu-jokenpo, #menu-velha {
+  /*menu jokenpo da pág home*/
   text-align: center;
   background-color: #ed1c24;
   height: 360px;
-  min-width: 300px;
-  max-width: 500px;
+  width: 30%;
   border-radius: 7px;
 }
-#tituloHome01 {
+#tituloMenu {
   /*titulo home*/
   text-align: center;
-  font-family: "Madimi One", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 2.8em;
+  font-style: normal;
+  font-size: 2em;
   display: inline-block;
-  margin: 40px auto auto 10px;
+  margin: 25px auto auto 10px;
 }
 .anima_logo {
   width: 0px;
@@ -51,14 +64,25 @@ body {
   padding: 50px;
 }
 #btnJogar,
-#btnRegras,
-#btnRedes {
+#btnRegras {
   /*botões da home*/
   margin: 20px auto;
   display: block;
   color: black;
   width: 130px;
   height: 60px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.9em;
+  background-color: wheat;
+  z-index: 1;
+}
+#btnRedes{
+  margin: 20px auto;
+  color: black;
+  width: 130px;
+  height: 30px;
   border-radius: 10px;
   border: 1px solid black;
   font-family: "Roboto Mono", monospace;
@@ -75,46 +99,45 @@ body {
   transform: scale(1.05);
 }
 footer {
-  position: fixed;
-  bottom: 1px;
-  left: 3px;
+  margin-top: 128px;
+  width: 220px;
+  height: 80px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 8px;
-  color: black;
+  padding: 5px;
 }
 #icon-ppt {
   width: 50px;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1400px) {
     body {
-        overflow: hidden;
         margin: auto;
         text-align: center;
+        overflow-y: scroll;
+        overflow-x: hidden;
       }
-      #tituloHome01 {
-        /*titulo home*/
-        text-align: center;
-        font-family: "Madimi One", sans-serif;
-        font-weight: 600;
-        font-size: 3.2em;
-        margin: 40px auto;
-      }
-    #menu {
-        /*conteúdo principal da pág home*/
-        margin: 30px auto;
-        text-align: center;
-        height: 400px;
-        width: 90%;
-        border-radius: 7px;
-        box-shadow: 1px 1px 5px 8px rgba(0, 0, 0, 0.037);
+    .menus{
+      margin: 50px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      height: 1000px;
+    }
+    #menu-jokenpo, #menu-velha {
+      /*menu jokenpo da pág home*/
+      text-align: center;
+      margin: 40px auto;
+      background-color: #ed1c24;
+      height: 360px;
+      width: 60%;
+      border-radius: 7px;
     }
     #btnJogar,
-    #btnRegras,
-    #btnRedes {
+    #btnRegras {
       /*botões da home*/
       margin: 30px auto;
       display: block;

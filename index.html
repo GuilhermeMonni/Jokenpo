@@ -10,21 +10,30 @@
 </head>
 <body>
     <header>
-        <h1 id="tituloHome01">Jokenpô</h1>
-        <img src="imagens/fundo.png" alt="Animação logo" class="anima_logo">
+        <!-- <img src="imagens/fundo.png" alt="Animação logo" class="anima_logo"> -->
     </header>
     <main>
-        <div id="menu">
-            <div id="botoes">
-                <button id="btnJogar" onclick="btnJogar()">Iniciar Jogo</a></button>
-                <button id="btnRegras" onclick="btnRegras()">Regras</a></button>
-                <button id="btnRedes" onclick="btnRedes()">Minhas redes</a></button>
+        <h1>Clean Game</h1>
+            <div class="menus">
+                <div id="menu-jokenpo">
+                    <h2 id="tituloMenu">Jokenpô</h2>
+                    <div id="botoes">
+                        <button id="btnJogar" onclick="btnJogar()">Iniciar Jogo</a></button>
+                        <button id="btnRegras" onclick="btnRegras()">Regras</a></button>
+                    </div>
+                </div>
+                <div id="menu-velha">
+                    <h2 id="tituloMenu">Jogo da velha</h2>
+                    <div id="botoes">
+                        <button id="btnJogar" onclick="btnJogar()">Iniciar Jogo</a></button>
+                        <button id="btnRegras" onclick="btnRegras()">Regras</a></button>
+                    </div>
+                </div>
             </div>
-        </div>
     </main>
     <footer>
-        <p>Desenvolvido por: Guilherme Monni.</p>
         <img src="imagens/icon-ppt.png" alt="Icone pedra, papel e tesoura" id="icon-ppt">
+        <button id="btnRedes" onclick="btnRedes()">Minhas redes</a></button>
     </footer>
 </body>
 </html>
