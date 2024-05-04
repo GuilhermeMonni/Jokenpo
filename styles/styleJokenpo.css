@@ -133,7 +133,7 @@ footer {
 }
 .alert{
     display: none;
-    margin: 10px auto;
+    margin: 30px auto;
     background-color: #ED1C24;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1000px rgba(0, 0, 0, 0.329);

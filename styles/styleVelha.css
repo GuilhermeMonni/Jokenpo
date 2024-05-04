@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
 
 body{
     margin: auto;
@@ -52,10 +53,10 @@ h3{   /*escolha jogador*/
     font-size: 2em;
 }
 #botoes-escolha{ /*botao de escolha do jogador*/
-    background-color: white;
+    padding: 10px;
     margin: 20px auto;
-    width: 70%;
-    height: 100px;
+    width: 100%;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,10 +64,28 @@ h3{   /*escolha jogador*/
 #botoes-escolha img{
     width: 60%;
 }
+#botoes-escolha p{
+    font-size: 3em;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 0px auto;
+}
 #btn-xis, #btn-bola{ /*escolha*/
     margin: 10px 50px;
-    width: 50%;
-    height: 60%;
+    width: 70%;
+    height: 90%;
+    background-color: #ea171e;
+    border: none;
+    border-radius: 20%;
+}
+#btn-xis:hover, #btn-bola:hover{
+    scale: 1.1;
+}
+#jogar{
+    background-color: white;
 }
 .quadro{  /*quadro das jogadas*/
     height: 300px;
@@ -105,8 +124,8 @@ footer {
     }
     .containerJogo {
         /*conteúdo principal da pág home*/
-        margin: 20px auto;
-        margin-bottom: 0px;
+        margin: 10px auto;
+        margin-bottom: 20px;
         text-align: center;
         height: 600px;
         width: 90%;
@@ -114,9 +133,6 @@ footer {
         box-shadow: 1px 1px 5px 8px rgba(0, 0, 0, 0.037);
     }
     footer #icon-ppt{
-        width: 50px;
-        position: fixed;
-        left: 20px;
-        bottom: 60px;
+        margin: 20px;
     }
 }

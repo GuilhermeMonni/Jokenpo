@@ -3,9 +3,11 @@ function btnVoltar(){
 };
 
 function carregaPag(){
-    let escolha = document.querySelector("#botoes-escolha");
     let quadro = document.querySelector(".quadro");
 
     quadro.style.display = "none";
-    // escolha.style.display = "none";
+};
+
+function escolhaXis(){
+    
 }

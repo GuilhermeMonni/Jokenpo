@@ -18,11 +18,18 @@
         <div class="containerJogo">
             <h3 id="escolha-jogador">Faça a sua escolha</h3>
             <div id="botoes-escolha">
-                <button id="btn-xis">X</button>
+                <button id="btn-xis" onclick="escolhaXis()">
+                    <p>X</p>
+                </button>
                 <div id="botoes-escolha-vs">
-                    <img src="imagens/vs.png" alt="">
+                    <img src="imagens/vs.png" alt="" style="width: 90%; margin-top: 10px;">
                 </div>
-                <button id="btn-bola">O</button>
+                <button id="btn-bola" onclick="escolhaBola()">
+                    <p>O</p>
+                </button>
+            </div>
+            <div id="jogar">
+                <button id="btn-jogar">Iniciar partida</button>
             </div>
             <div class="quadro">
                 <div class="celula" style="border-right: 2px solid black; border-bottom: 2px solid black;"></div>
