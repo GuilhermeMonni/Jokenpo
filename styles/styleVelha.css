@@ -84,9 +84,9 @@ body{
 }
 #btn-xis, #btn-bola{ /*escolha*/
     margin: 10px 50px;
+    background-color: #ed1c23;
     width: 70%;
     height: 90%;
-    background-color: #ea171e;
     border: none;
     border-radius: 20%;
 }
@@ -94,10 +94,11 @@ body{
     scale: 1.05;
     cursor: pointer;
 }
-#pre-jogo{  /*boa sorte*/
+#pre-jogo{  /*div boa sorte*/
     margin: 10px auto;
 }
-#pre-jogo h3{   /*texto de boa sorte */
+#boa-sorte{   /*texto de boa sorte */
+    margin: 20px auto;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1.4em;
     font-style: normal;
@@ -116,7 +117,7 @@ body{
 }
 #btn-jogar{ /*botao de jogar*/
     background-color: wheat;
-    margin: 30px auto;
+    margin: 90px auto;
     height: 47px;
     width: 170px;
     border-radius: 10px;
