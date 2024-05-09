@@ -5,6 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
 
+@keyframes animacao{
+    0%{ }
+    20%{transform: translate(280px, 20px);}
+    40%{transform: translate(-285px, 285px);}
+    60%{transform: translate(-280px);}
+    80%{transform: translate(280px, 280px)}
+    100%{}
+}
+
 body{
     margin: auto;
     padding: 10px;
@@ -43,7 +52,7 @@ body{
     border-radius: 13px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.736);
 }
-h3{   /*escolha jogador*/
+#escolha-jogador{   /*escolha jogador*/
     margin: 30px auto;
     width: 300px;
     height: 100px;
@@ -87,11 +96,19 @@ h3{   /*escolha jogador*/
 }
 #pre-jogo{  /*boa sorte*/
     margin: 10px auto;
+}
+#pre-jogo h3{   /*texto de boa sorte */
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 0.8em;
+    font-size: 1.4em;
     font-style: normal;
     color: rgba(0, 0, 0, 0.9);
     text-shadow: 1px 1px rgb(53, 53, 53);
+    display: none;
+}
+#emoji{ /*emoji de boa sorte */
+    animation-name: animacao;  
+    animation-duration: 10s;
+    animation-iteration-count: 2;
 }
 #jogar{     /*div botao de jogar*/
     margin: 10px auto;
@@ -145,6 +162,14 @@ footer {
 }
 
 @media (max-width: 700px) {
+    @keyframes animacao{
+        0%{ }
+        20%{transform: translate(160px, 20px);}
+        40%{transform: translate(-160px, 220px);}
+        60%{transform: translate(-160px);}
+        80%{transform: translate(160px, 220px)}
+        100%{}
+    }
     body {
         overflow: hidden;
         margin: auto;
