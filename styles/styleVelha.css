@@ -115,7 +115,7 @@ body{
     margin: 10px auto;
     height: 90px;
 }
-#btn-jogar{ /*botao de jogar*/
+#btn-jogar-xis, #btn-jogar-bola{ /*botao de jogar*/
     background-color: wheat;
     margin: 90px auto;
     height: 47px;
