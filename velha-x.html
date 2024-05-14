@@ -9,6 +9,35 @@
     <title>Jogo da velha</title>
 </head>
 <body>
-    
+    <header>
+        <span id="voltar">
+            <button id="btnVoltar" onclick="btnVoltar()"><img id="imgVoltar" src="imagens/voltar.png" alt=""></button>
+        </span> 
+    </header>
+    <main>
+        <div class="containerJogo">
+            <div id="placar">
+                <span id="jogador"><img src="imagens/letra-x.png" alt="Imagem do jogador" style="width: 50px;"></span>
+                <p id="pontos-jogador">0</p>
+                <p id="versus">x</p>
+                <p id="pontos-computador">0</p>
+                <span id="computador"><img src="imagens/letra-o.png" alt="Imagem do computador" style="width: 50px;"></span>
+            </div>
+            <div class="quadro">
+                <div class="celula" style="border-right: 2px solid black; border-bottom: 2px solid black;"></div>
+                <div class="celula" style="border-bottom: 2px solid black;"></div>
+                <div class="celula" style="border-left: 2px solid black; border-bottom: 2px solid black;"></div>
+                <div class="celula" style="border-right: 2px solid black; border-bottom: 2px solid black;"></div>
+                <div class="celula"></div>
+                <div class="celula" style="border-left: 2px solid black; border-bottom: 2px solid black;"></div>
+                <div class="celula" style="border-right: 2px solid black;"></div>
+                <div class="celula" style="border-top: 2px solid black;"></div>
+                <div class="celula" style="border-left: 2px solid black;"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="imagens/icon-jv.png" alt="Icone jogo da velha" id="icon-jv">
+    </footer>
 </body>
 </html>
