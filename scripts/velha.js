@@ -3,7 +3,7 @@ function btnVoltar(){
     location.replace("index.html", "_self");   
 };
 
-function carregaPag(){
+function carregaPagHome(){
     //função quando carrega a pag
     let quadro = document.querySelector(".quadro");
     let btn_jogar_xis = document.querySelector("#btn-jogar-xis");
@@ -54,33 +54,10 @@ function escolhaBola(){
 
 function jogarXis(){
     //  jogar como xis
-    
+    location.replace("velha-x.html", "_self");
 }
 
 function jogarBola(){
-    alert("escolheu bola");
+    //  jogar como bolinha
+    location.replace("velha-o.html", "_self");
 }
-
-
-
-/* let quadro_jogar = document.querySelector(".quadro");
-    let btn_bola = document.querySelector("#btn-bola");   //botao da bolinha
-    let btn_xis = document.querySelector("#btn-xis");   //botao do xis
-    let btn_jogar_bola = document.querySelector("#btn-jogar-bola");   //botao de jogar bolinha
-    let boa_sorte = document.querySelector("#boa-sorte");   //texto de boa sorte
-    let emoji = document.querySelector("#emoji");   //emoji de animação
-    let btn_jogar_xis = document.querySelector("#btn-jogar-xis");   //botao de jogar xis
-    let txt_escolha = document.querySelector("#escolha-jogador");   //texto faça sua escolha
-    let img_vs = document.querySelector("#img-vs")  //imagem de versus
-
-    quadro_jogar.style.display = "grid";
-    quadro_jogar.style.margin = "0px auto";
-    btn_bola.style.display = "none";
-    btn_xis.style.display = "none";
-    btn_jogar_bola.style.display = "none";
-    btn_jogar_xis.style.display = "none";
-    boa_sorte.style.display = "none";
-    emoji.style.display = "none";
-    txt_escolha.style.display = "none";
-    img_vs.style.display = "none"; */
-

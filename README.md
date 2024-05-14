@@ -7,7 +7,8 @@ Este é um website animado, criado com a ideia de ter alguns jogos simples, para
 # Estrutura do Projeto
 * styleHome.css: estilo da página inicial.
 * styleJokenpo.css: estilo da página do jogo jokenpo.
-* styleVelha.css: estilo da página do jogo da velha.
+* styleVelha.css: estilo da página home do jogo da velha.
+* styleVelhaJogo.css: estilo da página do jogo da velha.
 * styleRedes.css: estilo da página de redes.
 * styleRegrasJokenpo.css: estilo da página de regras.
 * index.html: página inicial.
@@ -19,7 +20,8 @@ Este é um website animado, criado com a ideia de ter alguns jogos simples, para
 * regras-jokenpo.html: página com as regras dos jogos.
 * jogo.js: script da página inicial.
 * jokenpo.js: script do jogo jokenpo.
-* velha.js: script do jogo da velha.
+* velha.js: script da home do jogo da velha.
+* velha-jogo.js: script do jogo da velha.
 
 # Em breve
 - Alguns outros jogos estão sendo desenvolvidos.
