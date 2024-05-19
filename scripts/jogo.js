@@ -15,7 +15,7 @@ function btnRegrasJokenpo(){
 };
 
 function btnJogarVelha(){
-    location.replace("velha.html", "_self");
+    location.replace("velha-home.html", "_self");
 };
 
 function btnRegrasVelha(){

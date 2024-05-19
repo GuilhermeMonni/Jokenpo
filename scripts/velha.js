@@ -5,11 +5,9 @@ function btnVoltar(){
 
 function carregaPagHome(){
     //função quando carrega a pag
-    let quadro = document.querySelector(".quadro");
     let btn_jogar_xis = document.querySelector("#btn-jogar-xis");
     let btn_jogar_bola = document.querySelector("#btn-jogar-bola");
 
-    quadro.style.display = "none";  //tabela do jogo
     btn_jogar_xis.style.display = "none";   //botao de jogar xis
     btn_jogar_bola.style.display = "none";   //botao de jogar bola
 };
