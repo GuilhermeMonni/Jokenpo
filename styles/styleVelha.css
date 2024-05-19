@@ -133,24 +133,6 @@ body{
     scale: 1.01;
     cursor: pointer;
 }
-.quadro{  /*quadro das jogadas*/
-    height: 300px;
-    margin: 50px auto;
-    padding: 10px;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-}
-.celula{    /*posições dentro do quadro*/
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    cursor: pointer;
-}
 footer {
   margin-top: 0px;
   width: 60px;
