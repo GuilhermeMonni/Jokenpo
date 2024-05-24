@@ -17,7 +17,7 @@ body{
     display: inline-block;
     margin-right: 90%;
     padding: 2px;
-    background-color: wheat;
+    background-color: #f5deb3;
 }
 #btnVoltar{/*botao de voltar para a home*/
     background-color: wheat;        
