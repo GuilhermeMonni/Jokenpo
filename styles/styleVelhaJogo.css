@@ -33,14 +33,17 @@ body{
     height: 30px;
     width: 30px;
 }
-#placar{
+#placar{    /*div do placar*/
     display: flex;
     flex-direction: row;
     margin: 50px auto;
 }
-#jogador, #computador{
+#jogador, #computador{  /*imagens dos simbolos*/
     margin: 20px auto;
     
+}
+#pontos-jogador, #pontos-computador, #versus{   /*placar*/
+    font-family: "Micro 5", sans-serif;;
 }
 .containerJogo{/*conteúdo principal da pág do jogo*/
     margin: 50px auto 70px;

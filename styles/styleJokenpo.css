@@ -83,7 +83,7 @@ body{
     background-color: #ff000000;
     border-radius: 10px;
 }
-.jogadas{
+.jogadas{   /*imagens das jogadas selecionadas*/
     display: flex;
     margin: 50px auto;
     flex-direction: row;
@@ -111,7 +111,7 @@ body{
     font-family: "Roboto Mono", monospace;
     font-size: 17px;
 }
-#placar{
+#placar{    /*div do placar*/
     width: 100px;
     margin: auto;
     text-align: center;
@@ -131,7 +131,7 @@ footer {
 #icon-ppt {
   width: 50px;
 }
-.alert{
+.alert{ /*alerta de revanche*/
     display: none;
     margin: 30px auto;
     background-color: #ED1C24;
@@ -148,7 +148,7 @@ footer {
     font-family: cursive;
     font-size: 1.1em;
 }
-#btn-sim{
+#btn-sim{   /*botao de sim para revanche*/
     margin: 20px auto;
     background-color: rgb(57, 181, 57);
     color: white;
@@ -160,7 +160,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.9em;
 }
-#btn-nao{
+#btn-nao{   /*botão de não para revanche*/
     margin: 20px auto;
     background-color: rgb(104, 0, 0);
     color: white;
@@ -174,7 +174,7 @@ footer {
 #btn-nao:hover, #btn-sim:hover{
     scale: 1.03;
 }
-#placar-final{
+#placar-final{  /*resultado final dos pontos*/
     position: absolute;
     bottom: 0px;
     left: 50%;
