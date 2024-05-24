@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Bebas +Neue & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+body{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: wheat;
+    overflow: hidden;
+}
+#voltar{/*div do btn de voltar para a home*/
+    width: 30px;                    
+    display: inline-block;
+    margin-right: 90%;
+    padding: 2px;
+    background-color: wheat;
+}
+#btnVoltar{/*botao de voltar para a home*/
+    background-color: wheat;        
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+#btnVoltar:hover{/*botao de voltar para a home*/
+    background-color: #ed1c23;
+    border-radius: 20px;
+}
+#imgVoltar{/*imagem do botão de voltar*/
+    height: 30px;
+    width: 30px; 
+}
+#tituloRegras{/*titulo da pág de regras*/
+    margin: auto auto 2px auto;
+    padding: 10px;
+    font-family: "Roboto Mono", monospace;
+    color: black;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+#menuRegras{    /*menu de regras*/
+    margin: 60px auto;
+    text-align: center;
+    background-color: #ED1C24;
+    height: 560px;
+    width: 40%;
+    border-radius: 7px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.736);
+}
+#menuRegras p{  /*texto do menu de regras*/
+    margin: 30px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+}
+#imagens{   /*div imagens do menu de regras*/
+    margin: 50px auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 70px 10px;
+    justify-content: center;
+}
+#imagens img{   /* imagens menu de regras*/
+    width: 100px;
+}
+footer {
+  margin-top: 0px;
+  width: 60px;
+  height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+#icon-jv {
+  width: 50px;
+}

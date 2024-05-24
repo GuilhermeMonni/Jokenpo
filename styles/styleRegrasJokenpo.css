@@ -37,8 +37,8 @@ body{
     height: 30px;
     width: 30px;
 }
-#tituloRegras02{/*titulo 02 da pág de regras*/
-    margin: auto auto 2px auto;
+#tituloRegras{/*titulo da pág de regras*/
+    margin: 10px auto 2px auto;
     padding: 10px;
     font-family: "Roboto Mono", monospace;
     color: black;
