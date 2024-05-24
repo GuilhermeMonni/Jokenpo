@@ -26,7 +26,7 @@ Este é um website animado, criado com a ideia de ter alguns jogos simples, para
 * velha-jogo.js: script do jogo da velha.
 
 # Em breve
-- Projeto ainda está sendo desenvolvido
+- Projeto ainda está em desenvolvimento.
 
 
 
