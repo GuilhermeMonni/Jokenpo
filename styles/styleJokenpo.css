@@ -40,7 +40,7 @@ body{
     font-size: 1.3em;
 }
 .containerJogo{/*conteúdo principal da pág do jogo*/
-    margin: 90px auto;
+    margin: -28px auto;
     text-align: center;                     
     padding: 1px;
     background-color: #ed1c23;
@@ -122,14 +122,16 @@ body{
     font-size: 1.3em;
 }
 footer {
-  margin-top: 128px;
-  width: 60px;
-  height: 80px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 5px;
+    position: absolute;
+    left: 2px;
+    top: 90%;
+    width: 60px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
 }
 #icon-ppt {
-  width: 50px;
+  width: 40px;
 }
 .alert{ /*alerta de revanche*/
     display: none;
