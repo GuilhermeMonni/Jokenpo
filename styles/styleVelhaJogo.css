@@ -43,7 +43,8 @@ body{
     
 }
 #pontos-jogador, #pontos-computador, #versus{   /*placar*/
-    font-family: "Micro 5", sans-serif;;
+    font-family: "Micro 5", sans-serif;
+    font-size: 2.3em;
 }
 .containerJogo{/*conteúdo principal da pág do jogo*/
     margin: 50px auto 70px;

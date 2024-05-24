@@ -16,25 +16,12 @@
     </header>
     <main>
         <div class="containerJogo">
-            <h3 id="escolha-jogador">Faça a sua escolha</h3>
-            <div id="botoes-escolha">
-                <button id="btn-xis" onclick="escolhaXis()">
-                    <p>X</p>
-                </button>
-                <div id="botoes-escolha-vs">
-                    <img src="imagens/vs.png" alt="" style="width: 90%; margin-top: 10px;" id="img-vs">
-                </div>
-                <button id="btn-bola" onclick="escolhaBola()">
-                    <p>O</p>
-                </button>
-            </div>
-            <div id="pre-jogo">
-                <h3 id="boa-sorte">Boa sorte! 💫</h3>
-                <p id="emoji">💫</p>
-            </div>
-            <div id="jogar">
-                <button id="btn-jogar-xis" onclick="jogarXis()">Iniciar jogo</button>
-                <button id="btn-jogar-bola" onclick="jogarBola()">Iniciar jogo</button>
+            <div id="placar">
+                <span id="jogador"><img src="imagens/letra-x.png" alt="Imagem do jogador" style="width: 50px;"></span>
+                <p id="pontos-jogador">0</p>
+                <p id="versus">x</p>
+                <p id="pontos-computador">0</p>
+                <span id="computador"><img src="imagens/letra-o.png" alt="Imagem do computador" style="width: 50px;"></span>
             </div>
             <div class="quadro">
                 <div class="celula" style="border-right: 2px solid black; border-bottom: 2px solid black;"></div>
