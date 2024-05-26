@@ -85,8 +85,13 @@ footer {
 }
 
 @media (1105px <= width <= 1380px){
+    body {
+        overflow: hidden;
+        margin: auto;
+        text-align: center;
+      }
     #menuRedes{/*conteúdo principal da pág redes*/
-        margin: 80px auto 50px;
+        margin: 10px auto 50px;
         text-align: center;                     
         background-color: #ff1d25ea;
         height: 350px;
@@ -114,18 +119,38 @@ footer {
         text-align: center;
         font-family: 'Honk', system-ui;
         font-size: 2.2em;
-        margin: 40px auto;
+        margin: -40px auto;
     }
     #menuRedes {
         /*conteúdo principal da pág home*/
-        margin: 30px auto;
+        margin: 40px auto 0px auto;
+        padding: 10px;
         text-align: center;
-        height: 400px;
+        height: 330px;
         width: 90%;
         border-radius: 7px;
         box-shadow: 1px 1px 5px 8px rgba(0, 0, 0, 0.037);
     }
+    #listaRedes{/*lista da pág de redes*/
+        text-align: left;
+        list-style: none;
+        line-height: 40px;
+        display: inline-block;
+        margin: 30px auto;
+        padding: 10px;
+    }
+    #listaRedes li{
+        font-family: 'Honk', system-ui;
+        font-size: 1.1em;
+    }
+    #listaRedes a{
+        font-family: 'Honk', system-ui;
+        font-size: 1em;
+        text-decoration: none;
+        color: white;
+        margin: 2px 5px;
+    }
     footer {
-        margin-top: 220px;
+        margin-top: 150px;
       }
 }
