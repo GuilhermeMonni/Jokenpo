@@ -27,8 +27,10 @@ function escolhaXis(){
     boa_sorte.style.display = "initial";
     btn_jogar_xis.style.display = "initial";
     btn_jogar_bola.style.display = "none";
-    btn_xis.style.background = "#eb0008da";
+    btn_xis.style.background = "transparent";
     btn_xis.style.color = "#3ADC64";
+    btn_xis.style.boxShadow = "1px 1px 5px 2px rgba(0, 0, 0, 0.169)";
+    btn_bola.style.boxShadow = "none";
 }
 
 function escolhaBola(){
@@ -46,8 +48,10 @@ function escolhaBola(){
     boa_sorte.style.display = "initial";
     btn_jogar_bola.style.display = "initial";
     btn_jogar_xis.style.display = "none";
-    btn_bola.style.background = "#eb0008da";
+    btn_bola.style.background = "transparent";
     btn_bola.style.color = "#3ADC64";
+    btn_bola.style.boxShadow = "1px 1px 5px 2px rgba(0, 0, 0, 0.169)";
+    btn_xis.style.boxShadow = "none";
 }
 
 function jogarXis(){
