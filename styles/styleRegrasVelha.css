@@ -52,6 +52,8 @@ body{
 }
 #menuRegras p{  /*texto do menu de regras*/
     margin: 30px auto;
+    text-align: justify;
+    text-indent: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: bold;
@@ -79,4 +81,18 @@ footer {
 }
 #icon-jv {
   width: 40px;
+}
+
+@media (max-width: 1400px){
+    #menuRegras{
+        width: 70%;
+    }
+}
+
+@media (max-width: 720px){
+    #menuRegras{
+        width: 98%;
+        margin: 20px auto;
+        height: 650px;
+    }
 }
