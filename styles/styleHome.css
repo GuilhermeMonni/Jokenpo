@@ -3,18 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-@keyframes animaLogo {
-  10% {
-    width: 40px;
-  }
-  20% {
-    transform: translateX(1400px);
-  }
-  30% {
-    transform: translateX(-1000px);
-  }
-}
-
 body {
   margin: auto;
   text-align: center;
@@ -111,7 +99,7 @@ footer {
         overflow-y: scroll;
         overflow-x: hidden;
       }
-    .menus{
+    .menus{/*div menus dos jogos*/
       margin: 0px auto;
       display: flex;
       flex-direction: column;
@@ -143,7 +131,45 @@ footer {
       font-size: 0.9em;
       background-color: wheat;
     }
-    .anima_logo{
-        display: none;
-    }
+}
+
+@media (max-width: 900px){
+  body {
+    margin: auto;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .menus{ /*div menus dos jogos*/
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+  }
+  #menu-jokenpo, #menu-velha {
+    /*menu jokenpo da pág home*/
+    text-align: center;
+    margin: 40px auto;
+    background-color: #ed1c24;
+    height: 360px;
+    width: 90%;
+    border-radius: 7px;
+  }
+  #btnJogar,
+  #btnRegras {
+    /*botões da home*/
+    margin: 30px auto;
+    display: block;
+    color: black;
+    width: 63%;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.02em;
+    background-color: wheat;
+  }
 }
