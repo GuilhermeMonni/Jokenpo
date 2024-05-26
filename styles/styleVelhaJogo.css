@@ -17,10 +17,10 @@ body{
     display: inline-block;
     margin-right: 90%;
     padding: 2px;
-    background-color: #f5deb3;
+    background-color: transparent;
 }
 #btnVoltar{/*botao de voltar para a home*/
-    background-color: wheat;        
+    background-color: transparent;        
     border: none;
     height: 50px;
     width: 50px;
@@ -47,11 +47,11 @@ body{
     font-size: 2.3em;
 }
 .containerJogo{/*conteúdo principal da pág do jogo*/
-    margin: 50px auto 70px;
+    margin: -20px auto 70px;
     text-align: center;                     
     padding: 1px;
     background-color: #ed1c23;
-    height: 660px;
+    height: 600px;
     width: 600px;
     border-radius: 13px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.736);
@@ -75,7 +75,9 @@ body{
     cursor: pointer;
 }
 footer {
-  margin-top: 0px;
+  position: absolute;
+  bottom: -28px;
+  left: 5px;
   width: 60px;
   height: 80px;
   font-family: Arial, Helvetica, sans-serif;
@@ -83,4 +85,28 @@ footer {
 }
 #icon-jv {
   width: 50px;
+}
+
+@media (max-width: 900px){
+    .containerJogo{
+        margin: 50px auto;
+        width: 98%;
+    }
+}
+
+@media (max-height: 700px) and (max-width: 700px){
+    .containerJogo{
+        margin: -20px auto;
+    }
+    #voltar{
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    footer{
+        width: 8%;
+        margin-bottom: -20px;
+    }
+    #icon-jv{
+        width: 100%;
+    }
 }
