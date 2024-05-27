@@ -23,7 +23,8 @@ Este é um website animado, criado com a ideia de ter alguns jogos simples, para
 * jogo.js: script da página inicial.
 * jokenpo.js: script do jogo jokenpo.
 * velha.js: script da home do jogo da velha.
-* velha-jogo.js: script do jogo da velha.
+* velha-jogo-x.js: script do jogo da velha jogando como x.
+* velha-jogo-o.js: script do jogo da velha jogando como o.
 
 # Em breve
 - Projeto ainda está em desenvolvimento.
