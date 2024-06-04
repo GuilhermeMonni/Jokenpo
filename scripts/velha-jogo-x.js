@@ -7,110 +7,102 @@ const status = document.querySelector(".status");
 // status da partida
 const btn_restart = document.querySelector("btn_restart");
 // botao de restart
+
 let tabuleiro = document.querySelector(".quadro");
 // tabuleiro do jogo de jogo
-
-let jogador = "X";  //simbolo selecionado para jogar
+let jogador = 0;  //0-jogador \ 1-computador
 let jogo = true;    //status do jogo
 let status_jogo = []; //jogadas
-
-const condicoes_vencedoras = [
-    //posições vencedoras
-    [0, 1, 2],
-    [3, 4, 5],
-    [6, 7, 8],
-    [0, 3, 6],
-    [1, 4, 7],
-    [2, 5, 8],
-    [0, 4, 8],
-    [2, 4, 6]
-];
+let nivel = 1 //nivel jogada cpu
+let vencedor 
 
 function click_celula(p){
     //função quando escolher uma celula
-    if((jogo) && (jogador === "X")){
+    if((jogo == true) && (jogador == 0)){
         switch(p){
             case 1:
                 if(status_jogo[0][0] == ""){
                     status_jogo[0][0] = "X";
+                    jogador = 1;
                 }
                 break;
             case 2:
                 if(status_jogo[0][1] == ""){
-                    status_jogo[0][1] = "X"
+                    status_jogo[0][1] = "X";
                 }
                 break;
             case 3:
                 if(status_jogo[0][2] == ""){
-                    status_jogo[0][2] = "X"
+                    status_jogo[0][2] = "X";
                 }
                 break;
             case 4:
                 if(status_jogo[1][0] == ""){
-                    status_jogo[1][0] = "X"
+                    status_jogo[1][0] = "X";
                 }
                 break;
             case 5:
                 if(status_jogo[1][1] == ""){
-                    status_jogo[1][1] = "X"
+                    status_jogo[1][1] = "X";
                 }
                 break;
             case 6:
                 if(status_jogo[1][2] == ""){
-                    status_jogo[1][2] = "X"
+                    status_jogo[1][2] = "X";
                 }
                 break;
             case 7:
                 if(status_jogo[2][0] == ""){
-                    status_jogo[2][0] = "X"
+                    status_jogo[2][0] = "X";
                 }
                 break;
             case 8:
                 if(status_jogo[2][1] == ""){
-                    status_jogo[2][1] = "X"
+                    status_jogo[2][1] = "X";
                 }
                 break;
-            default:
+            case 9:
                 if(status_jogo[2][2] == ""){
-                    status_jogo[2][2] = "X"
+                    status_jogo[2][2] = "X";
                 }
                 break;
         }
     }
-
-    atualiza_tabuleiro();
-   // checar_resultado();
+    
+    jogada_computador(); //chama a jogada da cpu
+    atualiza_tabuleiro(); //atualiza o tabuleiro
+    checar_resultado(); // checa se não tem um vencedor
 }
 
-function checar_resultado(){
-    //função para checar o resultado
-    let ganhou_round = false;
-
-    for(let i = 0; i < condicoes_vencedoras; i++){
-        const [a, b, c] = condicoes_vencedoras[i];
-        // nomeia como a, b, c cada condição
-        if(status_jogo[a] && status_jogo[a] === status_jogo[b] && status_jogo[a] === status_jogo[c]){
-            // se o status do jogo for uma condição vendedora
-            ganhou_round = true;
-            break;
+function jogada_computador(){
+    //jogada da cpu
+    if((jogo == true) && (jogador = 1)){
+        let c = 0;  //coluna
+        let l = 0;  //linha
+        if(nivel == 1){
+            do{ //manda a cpu sortear um número
+                c = Math.round(Math.random()*2);
+                l = Math.round(Math.random()*2);
+            }while(status_jogo[l][c] != "");
+            status_jogo[l][c] = "O";
         }
+        atualiza_tabuleiro();
+        checar_resultado();
+        jogador = 0;
     }
+}
 
-    if(ganhou_round){
-        //define vitoria
-        alert(`O jogador ${jogador} venceu!`);
-        jogo = false;
-        return;
-    }
-
-    let empate_round = !status_jogo.includes("");
-    //se não houver celulas vazias
-
-    if(empate_round){
-        //define empate
-        alert("empate");
-        jogo = false;
-        return;
+function checar_resultado(){    
+    if((status_jogo[0][0] === "X") && (status_jogo[0][1] === "X") && (status_jogo[0][2] === "X")){
+        atualiza_tabuleiro();
+        vencedor = 0;
+        const resultado = () => {alert("Xis venceu")};
+        setTimeout(resultado, 1000);    //temporizador
+    }else if((status_jogo[0][0] === "O") && (status_jogo[0][1] === "O") && (status_jogo[0][2] === "O")){
+        atualiza_tabuleiro();
+        vencedor = 1;
+        const resultado = () => {alert("Bolinha venceu")};
+        setTimeout(resultado, 1000);    //temporizador
     }
 }
 
