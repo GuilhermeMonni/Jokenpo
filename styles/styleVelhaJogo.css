@@ -88,8 +88,12 @@ footer {
 }
 
 @media (max-width: 900px){
+    #voltar{
+        margin-top: -10px;
+        margin-bottom: 15px;
+    }
     .containerJogo{
-        margin: 50px auto;
+        margin: -20px auto;
         width: 98%;
     }
 }
@@ -104,7 +108,7 @@ footer {
     }
     footer{
         width: 8%;
-        margin-bottom: -20px;
+        margin-bottom: -5px;
     }
     #icon-jv{
         width: 100%;
