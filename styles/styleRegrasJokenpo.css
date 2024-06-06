@@ -91,7 +91,7 @@ footer {
         text-align: center;
     }
     #tituloRegras{/*titulo da pág de regras*/
-        margin: -10px auto 20px auto;
+        margin: 20px auto 20px auto;
         padding: 10px;
         font-family: "Roboto Mono", monospace;
         color: black;
@@ -99,18 +99,18 @@ footer {
         font-size: 1.2em;
     }
     #menuRegras{/*menu da pág de regras*/
-        margin: -20px auto;
+        margin: 20px auto;
         padding: 10px;
         text-align: center;
         background-color: #ED1C24;
         height: 580px;
-        width: 68%;
+        width: 90%;
         border-radius: 7px;
         box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.736);
     }
     #imgRegras{/*imagens da pág de regras*/
         margin: 2px auto;
-        width: 100px;
+        width: 90px;
     }
     #textoRegras{/*texto das regras*/
         font-family: 'Courier New', Courier, monospace;

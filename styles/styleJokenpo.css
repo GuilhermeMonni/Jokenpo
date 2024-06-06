@@ -103,9 +103,10 @@ body{
     width: 400px;
 }
 #pontoJogador, #pontoComputador{/*placar*/
-    margin: 10px auto;
+    margin: auto auto;
     padding: 10px;
-    font-family: cursive;
+    font-family: "Micro 5", sans-serif;
+    font-size: 1.3em;
 }
 #jogadas-txt{/*texto das jogadas*/
     font-family: "Roboto Mono", monospace;
@@ -113,7 +114,8 @@ body{
 }
 #placar{    /*div do placar*/
     width: 100px;
-    margin: auto;
+    height: 30px;
+    margin: 20px auto;
     text-align: center;
     border-radius: 20px;
     font-family: "Micro 5", sans-serif;
@@ -149,7 +151,7 @@ footer {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-family: cursive;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 1.1em;
 }
 #btn-sim{   /*botao de sim para revanche*/
@@ -201,7 +203,7 @@ footer {
     }
     .containerJogo {
         /*conteúdo principal da pág home*/
-        margin: -10px auto;
+        margin: 30px auto;
         margin-bottom: 0px;
         text-align: center;
         height: 600px;
@@ -222,6 +224,6 @@ footer {
         width: 100%;
     }
     footer{
-        margin-top: 14px;
+        margin-top: 20px;
     }
 }

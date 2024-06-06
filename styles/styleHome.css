@@ -130,7 +130,7 @@ footer {
     margin: 130px auto;
     background-color: #ed1c24;
     height: 360px;
-    width: 60%;
+    width: 90%;
     border-radius: 7px;
   }
   #btnJogar,
@@ -146,5 +146,11 @@ footer {
     font-family: "Roboto Mono", monospace;
     font-size: 1.02em;
     background-color: wheat;
+  }
+  footer {
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 90%;
   }
 }
