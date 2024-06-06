@@ -147,10 +147,13 @@ footer {
     font-size: 1.02em;
     background-color: wheat;
   }
+  #btnRedes{
+    width: 160px;
+  }
   footer {
     position: absolute;
     bottom: -20px;
-    left: -20px;
+    left: -10px;
     width: 90%;
   }
 }

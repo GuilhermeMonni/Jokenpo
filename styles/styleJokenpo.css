@@ -203,7 +203,7 @@ footer {
     }
     .containerJogo {
         /*conteúdo principal da pág home*/
-        margin: 30px auto;
+        margin: 10px auto;
         margin-bottom: 0px;
         text-align: center;
         height: 600px;
@@ -212,7 +212,7 @@ footer {
         box-shadow: 1px 1px 5px 8px rgba(0, 0, 0, 0.037);
     }
     #ponto {/*resposta de quem pontuou*/
-        margin-top: 20px;
+        margin-top: -10px;
         margin-left: -10px;
         display: flex;
         justify-content: center;
