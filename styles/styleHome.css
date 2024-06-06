@@ -60,7 +60,7 @@ h1{ /*titulo da home*/
   border: 1px solid black;
   font-family: "Roboto Mono", monospace;
   font-size: 0.9em;
-  background-color: wheat;
+  background-color: transparent;
   z-index: 1;
 }
 #btnRedes:hover,
@@ -127,7 +127,7 @@ footer {
   #menu-jokenpo{
     /*menu jokenpo da pág home*/
     text-align: center;
-    margin: 130px auto;
+    margin: 100px auto;
     background-color: #ed1c24;
     height: 360px;
     width: 90%;
