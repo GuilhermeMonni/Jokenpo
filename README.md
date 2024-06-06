@@ -12,7 +12,7 @@ Este é um website animado, criado com a ideia de jogar Pedra, Papel e Tesoura.
 * index.html: página inicial.
 * jokenpo.html: página do jogo de jokenpô
 * redes.html: página com as minhas redes.
-* regras-jokenpo.html: página com as regras dos jogos.
+* regras-jokenpo.html: página com as regras do jogo.
 * jogo.js: script da página inicial.
 * jokenpo.js: script do jogo jokenpo.
 
