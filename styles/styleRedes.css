@@ -73,7 +73,7 @@ body{
 }
 footer {
   margin-top: 120px;
-  margin-left: -40px;
+  margin-left: -60px;
   width: 200px;
   height: 80px;
   font-family: Arial, Helvetica, sans-serif;
@@ -91,7 +91,7 @@ footer {
         text-align: center;
       }
     #menuRedes{/*conteúdo principal da pág redes*/
-        margin: 10px auto 50px;
+        margin: 50px auto 50px;
         text-align: center;                     
         background-color: #ff1d25ea;
         height: 350px;
@@ -123,11 +123,11 @@ footer {
     }
     #menuRedes {
         /*conteúdo principal da pág home*/
-        margin: 40px auto 0px auto;
+        margin: 60px auto 0px auto;
         padding: 10px;
         text-align: center;
         height: 330px;
-        width: 90%;
+        width: 60%;
         border-radius: 7px;
         box-shadow: 1px 1px 5px 8px rgba(0, 0, 0, 0.037);
     }
