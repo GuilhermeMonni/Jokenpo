@@ -75,11 +75,11 @@ footer {
     }
     #menuRegras {
         /*conteúdo principal da pág home*/
-        margin: 20px auto;
+        margin: -20px auto;
         text-align: center;
         padding: 20px;
         height: 580px;
-        width: 80%;
+        width: 60%;
         border-radius: 7px;
         box-shadow: 1px 1px 5px 8px rgba(0, 0, 0, 0.037);
     }
@@ -99,12 +99,12 @@ footer {
         font-size: 1.2em;
     }
     #menuRegras{/*menu da pág de regras*/
-        margin: 20px auto;
+        margin: -20px auto;
         padding: 10px;
         text-align: center;
         background-color: #ED1C24;
         height: 580px;
-        width: 90%;
+        width: 68%;
         border-radius: 7px;
         box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.736);
     }
@@ -120,7 +120,7 @@ footer {
     footer {
       position: absolute;
       left: 5px;
-      bottom: -10px;
+      bottom: -25px;
       width: 60px;
       height: 80px;
     }
