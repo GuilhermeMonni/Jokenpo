@@ -27,6 +27,7 @@ body{
 #btnVoltar:hover{/*botao de voltar para a home*/
     background-color: #ed1c23;
     border-radius: 20px;
+    transition-duration: 0.5s;
 }
 #imgVoltar{/*imagem do botão de voltar*/
     height: 30px;
