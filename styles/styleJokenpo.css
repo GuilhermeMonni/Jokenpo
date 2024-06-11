@@ -53,6 +53,9 @@ body{
 #bPedra{/*botão de escolher pedra*/
     background-image: url("../imagens/pedra.png");
     background-color: #ED1C24;
+    background-size: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 93px;
     width: 100px;
     border: beige;
@@ -62,6 +65,9 @@ body{
 #bPapel{/*botão de escolher papel*/
     background-image: url(../imagens/papel.png);
     background-color: #ED1C24;
+    background-size: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 93px;
     width: 115px;
     border: beige;
@@ -71,6 +77,9 @@ body{
 #bTesoura{/*botão de escolher tesoura*/
     background-image: url(../imagens/tesoura.png);
     background-color: #ED1C24;
+    background-size: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 93px;
     width: 108px;
     border: beige;
@@ -82,6 +91,7 @@ body{
     transform: scale(1.02);
     background-color: #ff000000;
     border-radius: 10px;
+    transition-duration: 0.5s;
 }
 .jogadas{   /*imagens das jogadas selecionadas*/
     display: flex;
