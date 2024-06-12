@@ -11,9 +11,46 @@ body {
 }
 h1{ /*titulo da home*/
   margin: 30px auto -80px auto;
+  width: 203px;
   font-family: "Madimi One", sans-serif;
   font-weight: 600;
   font-size: 2.4em;
+  position: relative;
+  background-color: transparent;
+}
+h1::after{
+  content: " ";
+  color: black;
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  top: 9px;
+  left: 0;
+  animation: anima-titulo 2s 1;
+  animation-timing-function: ease-in-out;
+}
+@keyframes anima-titulo{ /*animação titulo*/
+  0%{
+    background-color: wheat;
+    border-left: 1px solid #111;
+  }
+  80%{
+    background-color: wheat;
+    border-left: 1px solid #111;
+  }
+  100%{
+    left: 100%;
+  }
+}
+#tituloMenu {
+  /*subtitulo menu*/
+  text-align: center;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 2em;
+  display: inline-block;
+  margin: 35px auto 0;
 }
 #menu-jokenpo{
   /*menu da pág home*/
@@ -23,24 +60,23 @@ h1{ /*titulo da home*/
   height: 360px;
   width: 36%;
   border-radius: 7px;
+  animation: anima-menu 0.8s 1;
+  animation-timing-function: ease-out;
 }
-#tituloMenu {
-  /*titulo menu*/
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 2em;
-  display: inline-block;
-  margin: 25px auto auto 10px;
+@keyframes anima-menu{/*animação subtitulo*/
+  0%{
+    background-color: transparent;
+    transform: translateY(-20px);
+  }
 }
 #botoes { /* div dos botoes*/
+  margin: -30px auto;
   padding: 50px;
 }
 #btnJogar,
 #btnRegras {
   /*botões dos menus*/
-  margin: 20px auto;
+  margin: 30px auto 30px;
   display: block;
   color: black;
   width: 155px;
