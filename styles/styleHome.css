@@ -11,7 +11,7 @@ body {
 }
 h1{ /*titulo da home*/
   margin: 30px auto -80px auto;
-  width: 220px;
+  width: 203px;
   font-family: "Madimi One", sans-serif;
   font-weight: 600;
   font-size: 2.4em;
@@ -161,6 +161,8 @@ footer {
     overflow-y: scroll;
     overflow-x: hidden;
   }
+  h1{
+    width: 300px;
   #menu-jokenpo{
     /*menu jokenpo da pág home*/
     text-align: center;
