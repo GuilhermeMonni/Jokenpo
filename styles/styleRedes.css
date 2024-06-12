@@ -15,7 +15,15 @@ body{
     width: 37%;
     padding: 20px;
     border-radius: 7px;
+    animation: anima-menu 0.8s 1;
+    animation-timing-function: ease-out;
 }
+@keyframes anima-menu{/*animação menu*/
+    0%{
+      background-color: transparent;
+      transform: translateY(-20px);
+    }
+  }
 #tituloRedes{/*titulo redes*/
     text-align: center;             
     font-family: 'Honk', system-ui;

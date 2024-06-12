@@ -1,30 +1,13 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family= Bebas +Neue & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body{
     margin: auto;
     text-align: center;
     background-color: wheat;
     overflow: hidden;
-}
-#tituloRegras{/*titulo da pág de regras*/
-    margin: -10px auto 20px auto;
-    padding: 10px;
-    font-family: "Roboto Mono", monospace;
-    color: black;
-    border-radius: 20px;
-    font-size: 1.5em;
-}
-#menuRegras{/*menu da pág de regras*/
-    margin: -25px auto;
-    padding: 10px;
-    text-align: center;
-    background-color: #ED1C24;
-    height: 580px;
-    width: 34%;
-    border-radius: 7px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.736);
 }
 #voltar{/*div do btn de voltar para a home*/
     width: 30px;                    
@@ -44,12 +27,51 @@ body{
     border-radius: 20px;
     transition-duration: 0.5s;
 }
+#tituloRegras{/*titulo da pág de regras*/
+    margin: -10px auto 20px auto;
+    padding: 10px;
+    font-family: "Roboto Mono", monospace;
+    color: black;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+#menuRegras{/*menu da pág de regras*/
+    margin: -25px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #ED1C24;
+    height: 580px;
+    width: 34%;
+    border-radius: 7px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.736);
+    animation: anima-menu 0.8s 1;
+    animation-timing-function: ease-out;
+  }
+@keyframes anima-menu{/*animação menu*/
+    0%{
+      background-color: transparent;
+      transform: translateY(-20px);
+    }
+}
+.jogadas{/*imagens das jogadas*/
+    position: relative;
+}
+#txt-vs{/*texto de versus*/
+    position: absolute;
+    color: #111;
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2em;
+    left: 47%;
+    top: 0;
+}
 #imgVoltar{/*imagem do botão de voltar*/
     height: 30px;
     width: 30px;
 }
 #imgRegras{/*imagens da pág de regras*/
-    margin: 2px auto;
+    margin: 2px 50px;
     width: 100px;
 }
 #textoRegras{/*texto das regras*/
@@ -68,7 +90,7 @@ footer {
   width: 40px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
     body {
         overflow: hidden;
         margin: auto;
@@ -80,7 +102,7 @@ footer {
         text-align: center;
         padding: 20px;
         height: 580px;
-        width: 60%;
+        width: 70%;
         border-radius: 7px;
         box-shadow: 1px 1px 5px 8px rgba(0, 0, 0, 0.037);
     }
@@ -100,7 +122,7 @@ footer {
         font-size: 1.2em;
     }
     #menuRegras{/*menu da pág de regras*/
-        margin: 20px auto;
+        margin: -10px auto;
         padding: 10px;
         text-align: center;
         background-color: #ED1C24;
@@ -110,7 +132,7 @@ footer {
         box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.736);
     }
     #imgRegras{/*imagens da pág de regras*/
-        margin: 2px auto;
+        margin: 2px 30px;
         width: 90px;
     }
     #textoRegras{/*texto das regras*/
